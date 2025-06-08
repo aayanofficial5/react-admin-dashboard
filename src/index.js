@@ -7,7 +7,7 @@ import { ContextProvider } from './contexts/ContextProvider';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ContextProvider>
+    <ContextProvider basename="/react-admin-dashboard">
       <App />
     </ContextProvider>
   </React.StrictMode>,

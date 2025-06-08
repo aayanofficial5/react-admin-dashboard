@@ -2,7 +2,7 @@
   "name": "react-admin-dashboard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aayanofficial5.github.io/react-admin-dashboard",
+  "homepage": "https://aayanofficial5.github.io/react-admin-dashboard/",
   "description": "A React-based admin dashboard template using Syncfusion components.",
   "dependencies": {
     "@syncfusion/ej2": "^19.4.48",
