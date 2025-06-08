@@ -2,6 +2,8 @@
   "name": "react-admin-dashboard",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://aayanofficial5.github.io/react-admin-dashboard",
+  "description": "A React-based admin dashboard template using Syncfusion components.",
   "dependencies": {
     "@syncfusion/ej2": "^19.4.48",
     "@syncfusion/ej2-react-calendars": "^19.4.48",
@@ -11,6 +13,7 @@
     "@syncfusion/ej2-react-kanban": "^19.4.48",
     "@syncfusion/ej2-react-popups": "^19.4.52",
     "@syncfusion/ej2-react-schedule": "^19.4.50",
+    "gh-pages": "^6.3.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
@@ -21,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
