@@ -1,4 +1,4 @@
-# 🧑‍💼 React Admin Dashboard – Assignment 3 (Celebal Internship)
+# 🧑‍💼 React Admin Dashboard – Assignment 3 & 4 (Celebal Internship)
 
 ## 📋 Description
 
